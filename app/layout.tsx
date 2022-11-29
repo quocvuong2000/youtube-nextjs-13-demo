@@ -8,7 +8,9 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <head />
+      <head>
+        <title>Vuong website</title>
+      </head>
       <body>
         <Header />
         {children}
